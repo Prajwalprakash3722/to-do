@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.html {
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+  width: 100%;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Bebas Neue',cursive;
+  color: #16d4ab;
+  letter-spacing: 1.5px;
+  text-shadow: 5px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 1vmin);
+  font-family: 'Roboto Slab',
+  serif;
+  color: rgb(22, 212, 171);
+  letter-spacing: 1.5px;
+  position: relative;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.input-bar {
+  margin-top: 10px;
+  min-height: 27px;
+  min-width: 50%;
+  font-family: 'Roboto','sans-serif';
+}
+.input-button {
+  margin-top: 10px;
+  margin-left: 25px;
+  min-height: 20px;
+  font-family: 'Roboto','sans-serif';
+  border-radius: 5px;
+  border: 2px solid rgb;
+}
+.delete-button{
+  align-items: left;
+  justify-content: left;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Roboto','sans-serif';
+  min-height: 15px;
+  border-radius: 5px;
+
+}
+.App-credits{
+font-size:medium;
+font-family: 'Roboto';
+}
+.time-limit-date{
+  margin-left: 10px;
+  margin-top: 10px;
+  min-height: 27px;
+  font-family: 'Roboto',
+  'sans-serif';
+  border-radius: 5px;
+
+}
+.time-limit{
+  margin-left: 10px;
+  margin-top: 10px;
+  min-height: 27px;
+  font-family: 'Roboto',
+  'sans-serif';
+  border-radius: 5px;
+}
+.list-group{
+font-family: 'Noto Sans JP',
+sans-serif;
+font-size: 30px;
+}
+.App-logo-github{
+  margin-top: 10px;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50px;
+}
+.App-logo{
+  shape-rendering: crispEdges;
+  box-shadow: 10px;
+}
